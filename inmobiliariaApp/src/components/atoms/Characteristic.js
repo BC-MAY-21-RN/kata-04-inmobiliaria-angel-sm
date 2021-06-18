@@ -1,11 +1,11 @@
 import React from 'react';
-import { View, Text, Image } from 'react-native';
+import { View, Text, Image, StyleSheet } from 'react-native';
 
 export const Characteristic = ({total, icon = ''}) => {
     return (
-       <View>
+       <View style={styles.content}>
             <Image
-                style={{width: 100, height:100}}
+                style={{width: 20, height:20}}
                 source={{
                     uri: icon
                 }}
@@ -14,3 +14,11 @@ export const Characteristic = ({total, icon = ''}) => {
        </View>
     )
 }
+
+const styles = StyleSheet.create({
+    content: {
+        display: 'flex',
+        flexDirection: 'row',
+        width: '33%'
+    }
+})

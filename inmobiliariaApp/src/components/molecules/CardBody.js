@@ -1,10 +1,10 @@
 import React from 'react';
-import { View } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import { Characteristic  } from '../atoms/Characteristic'
 
 export const CardBody = ({ characteristics = [] }) => {
     return (
-         <View>
+         <View style={styles.list}>
              {
                 characteristics.map((characteristic) => {
                     return (
@@ -20,3 +20,13 @@ export const CardBody = ({ characteristics = [] }) => {
          </View>
     )
 };
+
+const styles = StyleSheet.create({
+    list: {
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        padding: 5
+    }
+})

@@ -4,10 +4,11 @@ import { Card } from './Card';
 
 export const CardList = ({ properties }) => {
     return (
-        <FlatList 
+        <FlatList
             data={properties}
             renderItem={Card}
             keyExtractor={item => item.id}
         />
     );
 }
+

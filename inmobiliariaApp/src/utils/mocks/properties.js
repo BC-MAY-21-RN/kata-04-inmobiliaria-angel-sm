@@ -47,7 +47,7 @@ export const properties = [
     ],
     price: 440000,
     image: 'https://i.imgur.com/LKN9hEg.jpg', 
-    ranking: 4
+    ranking: 4.1
   },
   {
     id: 3,
@@ -97,7 +97,7 @@ export const properties = [
     ],
     price: 440000,
     image: 'https://i.imgur.com/LKN9hEg.jpg', 
-    ranking: 5
+    ranking: 4.9
   },
   {
     id: 5,

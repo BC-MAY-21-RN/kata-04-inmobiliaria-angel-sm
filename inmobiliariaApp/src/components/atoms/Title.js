@@ -1,4 +1,11 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { Text, StyleSheet } from 'react-native';
 
-export const Title = ({ title = '' }) => (<Text>{title}</Text>)
+export const Title = ({ title = '' }) => (<Text style={styles.title}>{title}</Text>)
+
+const styles = StyleSheet.create({
+    title: {
+        fontSize: 25,
+        marginBottom: 2,
+    }
+})
