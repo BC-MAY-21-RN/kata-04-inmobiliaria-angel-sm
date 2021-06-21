@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import Star from '../../assets/images/Star.svg'
-import { stylesShared } from '../../shared/styles';
+import { theme } from '../../shared/theme';
 
 export const Ranking = ({ total= 0, iconProps = {width: 30, height:30} }) => {
     return (
@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     },
     total:{
         marginLeft: 3,
-        color: stylesShared.color.yellowBalck,
+        color: theme.color.yellowBalck,
         fontWeight: 'bold'
     }
 })

@@ -7,14 +7,16 @@ export const CardFooter = ({ price }) => {
     return (
          <View style={styles.footerContent}>
              <Price price={price} />
-             <Favorite with={30} heigth={30} />
+             <Favorite />
          </View>
     )
 };
 
 const styles = StyleSheet.create({
     footerContent: {
+        flex: 1,
         display: 'flex',
         flexDirection: 'row',
+        justifyContent: 'space-between'
     }
 })

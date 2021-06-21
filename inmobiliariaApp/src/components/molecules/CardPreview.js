@@ -2,7 +2,7 @@ import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import { PropertyImage } from '../atoms/PropertyImage'
 import { Ranking } from '../atoms/Ranking'
-import { stylesShared }  from '../../shared/styles';
+import { theme }  from '../../shared/theme';
 
 export const CardPreview = ({ url, total }) => {
     return (
@@ -21,9 +21,9 @@ const styles = StyleSheet.create({
         width: 60,
         padding: 5,
         bottom: 0,
-        right: 35,
+        right: 30,
         marginBottom: 10,
-        backgroundColor: stylesShared.color.yellowLigth,
+        backgroundColor: theme.color.yellowLigth,
         borderRadius: 20,
     },
     previewContent: {

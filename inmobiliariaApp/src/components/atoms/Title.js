@@ -5,7 +5,8 @@ export const Title = ({ title = '' }) => (<Text style={styles.title}>{title}</Te
 
 const styles = StyleSheet.create({
     title: {
-        fontSize: 25,
+        fontSize: 22,
         marginBottom: 2,
+        fontWeight: 'bold'
     }
 })

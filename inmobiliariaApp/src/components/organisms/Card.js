@@ -4,7 +4,7 @@ import { CardPreview } from '../molecules/CardPreview';
 import { CardHeader } from '../molecules/CardHeader';
 import { CardBody } from '../molecules/CardBody';
 import { CardFooter } from '../molecules/CardFooter';
-import { stylesShared } from '../../shared/styles';
+import { theme } from '../../shared/theme';
 
 export const Card = (props) => {
     const { image, ranking, address, name, characteristics, price, id } = props.item
@@ -30,7 +30,7 @@ const style = StyleSheet.create({
     card:{
         display: 'flex',
         flex: 1,
-        backgroundColor: stylesShared.color.blueLigth,
+        backgroundColor: theme.color.blueLigth,
         margin: 10,
         padding: 15,
         borderRadius: 15

@@ -12,16 +12,16 @@ export const properties = [
       {
         name: "bathrooms",
         total: 2,
-        icon: 'https://i.imgur.com/6WfprKV.png'
+        icon: 'https://i.imgur.com/wCNO6xX.png'
       },
       {
         name: "size",
         total: 230,
-        icon: 'https://i.imgur.com/6WfprKV.png'
+        icon: 'https://i.imgur.com/TRT4kVh.png'
       },
     ],
     price: 440000,
-    image: 'https://i.imgur.com/LKN9hEg.jpg', 
+    image: 'https://i.imgur.com/zbAmEfA.png', 
     ranking: 4.5
   },
   {
@@ -37,16 +37,16 @@ export const properties = [
       {
         name: "bathrooms",
         total: 2,
-        icon: 'https://i.imgur.com/6WfprKV.png'
+        icon: 'https://i.imgur.com/wCNO6xX.png'
       },
       {
         name: "size",
         total: 230,
-        icon: 'https://i.imgur.com/6WfprKV.png'
+        icon: 'https://i.imgur.com/TRT4kVh.png'
       },
     ],
     price: 440000,
-    image: 'https://i.imgur.com/LKN9hEg.jpg', 
+    image: 'https://i.imgur.com/zbAmEfA.png', 
     ranking: 4.1
   },
   {
@@ -62,16 +62,16 @@ export const properties = [
       {
         name: "bathrooms",
         total: 2,
-        icon: 'https://i.imgur.com/6WfprKV.png'
+        icon: 'https://i.imgur.com/wCNO6xX.png'
       },
       {
         name: "size",
         total: 230,
-        icon: 'https://i.imgur.com/6WfprKV.png'
+        icon: 'https://i.imgur.com/TRT4kVh.png'
       },
     ],
     price: 440000,
-    image: 'https://i.imgur.com/LKN9hEg.jpg', 
+    image: 'https://i.imgur.com/zbAmEfA.png', 
     ranking: 4.2
   },
   {
@@ -87,16 +87,16 @@ export const properties = [
       {
         name: "bathrooms",
         total: 2,
-        icon: 'https://i.imgur.com/6WfprKV.png'
+        icon: 'https://i.imgur.com/wCNO6xX.png'
       },
       {
         name: "size",
         total: 230,
-        icon: 'https://i.imgur.com/6WfprKV.png'
+        icon: 'https://i.imgur.com/TRT4kVh.png'
       },
     ],
     price: 440000,
-    image: 'https://i.imgur.com/LKN9hEg.jpg', 
+    image: 'https://i.imgur.com/zbAmEfA.png', 
     ranking: 4.9
   },
   {
@@ -112,16 +112,16 @@ export const properties = [
       {
         name: "bathrooms",
         total: 2,
-        icon: 'https://i.imgur.com/6WfprKV.png'
+        icon: 'https://i.imgur.com/wCNO6xX.png'
       },
       {
         name: "size",
         total: 230,
-        icon: 'https://i.imgur.com/6WfprKV.png'
+        icon: 'https://i.imgur.com/TRT4kVh.png'
       },
     ],
     price: 440000,
-    image: 'https://i.imgur.com/LKN9hEg.jpg', 
+    image: 'https://i.imgur.com/zbAmEfA.png', 
     ranking: 4.8
   },
 ];

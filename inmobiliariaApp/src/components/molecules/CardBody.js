@@ -6,12 +6,14 @@ export const CardBody = ({ characteristics = [] }) => {
     return (
          <View style={styles.list}>
              {
-                characteristics.map((characteristic) => {
+                characteristics.map((characteristic, i) => {
                     return (
                         <Characteristic 
                             total={characteristic.total} 
                             icon={characteristic.icon} 
-                            key={characteristic.name} 
+                            key={characteristic.name}
+                            base={characteristic.name == 'size' ? 'ft' : ''}
+                            exponente={characteristic.name == 'size' ? '2' : ''}
                         />
                     )
                 }
@@ -25,6 +27,7 @@ const styles = StyleSheet.create({
     list: {
         display: 'flex',
         flexDirection: 'row',
+        flexWrap: 'wrap',
         alignItems: 'center',
         justifyContent: 'space-between',
         padding: 5
