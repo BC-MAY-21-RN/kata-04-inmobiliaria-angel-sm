@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from 'react-native';
 import Location from '../../assets/images/Location.svg'
 import { theme } from '../../shared/theme';
 
-export const Adress = ({ address, iconProps }) => {
+export const Adress = ({ address }) => {
     return (
        <View style={styles.addressContent}>
            <Location width={18} height={18}  />

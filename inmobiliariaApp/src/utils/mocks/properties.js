@@ -1,7 +1,7 @@
 export const properties = [
   {
     id: 1,
-    name: 'The Willows',
+    name: 'The Willows 1',
     address: '3517 W. Gray St. Utica',
     characteristics: [
       {
@@ -26,8 +26,8 @@ export const properties = [
   },
   {
     id: 2,
-    name: 'The Willows',
-    address: '3517 W. Gray St. Utica',
+    name: 'The Willows 2',
+    address: '3517 W. Gray St. Uticat',
     characteristics: [
       {
         name: "beds",
@@ -52,7 +52,7 @@ export const properties = [
   {
     id: 3,
     name: 'The Siattle',
-    address: '3517 W. Gray St. Utica',
+    address: '3517 W. Gray St. Utican',
     characteristics: [
       {
         name: "beds",
@@ -77,7 +77,7 @@ export const properties = [
   {
     id: 4,
     name: 'Corner House',
-    address: '3517 W. Gray St. Utica',
+    address: '3517 W. Gray St. Uticas',
     characteristics: [
       {
         name: "beds",
@@ -102,7 +102,7 @@ export const properties = [
   {
     id: 5,
     name: 'Orchard House',
-    address: '3517 W. Gray St. Utica',
+    address: '3517 W. Gray St. Uticad',
     characteristics: [
       {
         name: "beds",

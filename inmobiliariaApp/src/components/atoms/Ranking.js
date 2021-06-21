@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from 'react-native';
 import Star from '../../assets/images/Star.svg'
 import { theme } from '../../shared/theme';
 
-export const Ranking = ({ total= 0, iconProps = {width: 30, height:30} }) => {
+export const Ranking = ({ total= 0 }) => {
     return (
        <View style={styles.content}>
            <Star width={14} height={14} />
